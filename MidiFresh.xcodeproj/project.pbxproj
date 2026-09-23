@@ -13,7 +13,6 @@
 		1A635A5E2BE234760051D816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A635A5D2BE234760051D816 /* Preview Assets.xcassets */; };
 		1A635A662BE2349E0051D816 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A635A652BE2349E0051D816 /* AudioKit */; };
 		1A635A692BE234C50051D816 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1A635A682BE234C50051D816 /* AudioKitUI */; };
-		1A635A7F2BE2391A0051D816 /* MusicSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635A6D2BE2391A0051D816 /* MusicSheetView.swift */; };
 		1A635A802BE2391A0051D816 /* ListSoundFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635A6E2BE2391A0051D816 /* ListSoundFontView.swift */; };
 		1A635A812BE2391A0051D816 /* TwoColumnContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635A6F2BE2391A0051D816 /* TwoColumnContentView.swift */; };
 		1A635A822BE2391A0051D816 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635A702BE2391A0051D816 /* SettingsView.swift */; };
@@ -47,7 +46,6 @@
 		1A635AAF2BE2398D0051D816 /* MTMIDIChannelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AA72BE2398D0051D816 /* MTMIDIChannelMessage.swift */; };
 		1A635AB02BE2398D0051D816 /* MIDIHardwareListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AA82BE2398D0051D816 /* MIDIHardwareListener.swift */; };
 		1A635AB72BE239A20051D816 /* UndimmedPresentationDetent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB22BE239A10051D816 /* UndimmedPresentationDetent.swift */; };
-		1A635AB82BE239A20051D816 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB32BE239A10051D816 /* PDFKitView.swift */; };
 		1A635AB92BE239A20051D816 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB42BE239A10051D816 /* String+Extensions.swift */; };
 		1A635ABA2BE239A20051D816 /* UndimmedPresentationDetentsViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB52BE239A10051D816 /* UndimmedPresentationDetentsViewModifier.swift */; };
 		1A635ABB2BE239A20051D816 /* UISheetPresentationControllerDetentIdentifier+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB62BE239A10051D816 /* UISheetPresentationControllerDetentIdentifier+Init.swift */; };
@@ -63,7 +61,6 @@
 		1A635A592BE234760051D816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A635A5B2BE234760051D816 /* Fresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fresh.entitlements; sourceTree = "<group>"; };
 		1A635A5D2BE234760051D816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1A635A6D2BE2391A0051D816 /* MusicSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSheetView.swift; sourceTree = "<group>"; };
 		1A635A6E2BE2391A0051D816 /* ListSoundFontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSoundFontView.swift; sourceTree = "<group>"; };
 		1A635A6F2BE2391A0051D816 /* TwoColumnContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnContentView.swift; sourceTree = "<group>"; };
 		1A635A702BE2391A0051D816 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -97,7 +94,6 @@
 		1A635AA72BE2398D0051D816 /* MTMIDIChannelMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMIDIChannelMessage.swift; sourceTree = "<group>"; };
 		1A635AA82BE2398D0051D816 /* MIDIHardwareListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIHardwareListener.swift; sourceTree = "<group>"; };
 		1A635AB22BE239A10051D816 /* UndimmedPresentationDetent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndimmedPresentationDetent.swift; sourceTree = "<group>"; };
-		1A635AB32BE239A10051D816 /* PDFKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
 		1A635AB42BE239A10051D816 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		1A635AB52BE239A10051D816 /* UndimmedPresentationDetentsViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndimmedPresentationDetentsViewModifier.swift; sourceTree = "<group>"; };
 		1A635AB62BE239A10051D816 /* UISheetPresentationControllerDetentIdentifier+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISheetPresentationControllerDetentIdentifier+Init.swift"; sourceTree = "<group>"; };
@@ -167,7 +163,6 @@
 		1A635A6C2BE2391A0051D816 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				1A635A6D2BE2391A0051D816 /* MusicSheetView.swift */,
 				1A635A6E2BE2391A0051D816 /* ListSoundFontView.swift */,
 				1A635A6F2BE2391A0051D816 /* TwoColumnContentView.swift */,
 				1A635A702BE2391A0051D816 /* SettingsView.swift */,
@@ -216,20 +211,19 @@
 				1A635AA82BE2398D0051D816 /* MIDIHardwareListener.swift */,
 			);
 			name = audiokit;
-			path = ../../../MidiTrack/MidiTrack/audiokit;
+			path = audiokit;
 			sourceTree = "<group>";
 		};
 		1A635AB12BE239A10051D816 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
 				1A635AB22BE239A10051D816 /* UndimmedPresentationDetent.swift */,
-				1A635AB32BE239A10051D816 /* PDFKitView.swift */,
 				1A635AB42BE239A10051D816 /* String+Extensions.swift */,
 				1A635AB52BE239A10051D816 /* UndimmedPresentationDetentsViewModifier.swift */,
 				1A635AB62BE239A10051D816 /* UISheetPresentationControllerDetentIdentifier+Init.swift */,
 			);
 			name = extensions;
-			path = ../../../MidiTrack/MidiTrack/extensions;
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		1A635ABC2BE239AD0051D816 /* cloud */ = {
@@ -238,7 +232,7 @@
 				1A635ABD2BE239AD0051D816 /* DocumentPicker.swift */,
 			);
 			name = cloud;
-			path = ../../../MidiTrack/MidiTrack/cloud;
+			path = cloud;
 			sourceTree = "<group>";
 		};
 		1A635ABF2BE23AD40051D816 /* Sounds */ = {
@@ -332,7 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A635A902BE2391A0051D816 /* MusicTrackRow.swift in Sources */,
-				1A635AB82BE239A20051D816 /* PDFKitView.swift in Sources */,
 				1A635A8B2BE2391A0051D816 /* ListDrumkitView.swift in Sources */,
 				1A635A882BE2391A0051D816 /* SequencerView.swift in Sources */,
 				1A635A8D2BE2391A0051D816 /* SplashView.swift in Sources */,
@@ -364,7 +357,6 @@
 				1A635A9D2BE239390051D816 /* DownloadManager.swift in Sources */,
 				1A635A9C2BE239390051D816 /* DisplayLink.swift in Sources */,
 				1A635A802BE2391A0051D816 /* ListSoundFontView.swift in Sources */,
-				1A635A7F2BE2391A0051D816 /* MusicSheetView.swift in Sources */,
 				1A635A9F2BE239390051D816 /* WavFile.swift in Sources */,
 				1A635AB92BE239A20051D816 /* String+Extensions.swift in Sources */,
 				1A635A822BE2391A0051D816 /* SettingsView.swift in Sources */,

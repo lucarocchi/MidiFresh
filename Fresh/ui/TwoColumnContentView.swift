@@ -6,7 +6,6 @@
  */
 
 import SwiftUI
-import PDFKit
 
 struct TwoColumnContentView: View {
     @State var tag:Int? = nil
@@ -44,13 +43,6 @@ struct TwoColumnContentView: View {
                     } label: {
                         MenuRow(title: "Instruments",subtitle: "assign sounds to instruments",image:"guitars")
                  
-                        
-                    }
-                    
-                    NavigationLink {
-                        MusicSheetView()
-                    } label: {
-                        MenuRow(title: "Music Sheet",subtitle: "load auxiliary pdf music sheet ",image:"music.note.list")
                         
                     }
                     

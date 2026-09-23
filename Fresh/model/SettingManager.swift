@@ -76,12 +76,6 @@ class SettingManager: ObservableObject {
         }
     }
     
-    @Published var pdfData: Data? {
-        didSet {
-            let key="pdfData";
-            defaults.set(pdfData, forKey:key);
-        }
-    }
     @Published var recentUrl: String? {
         didSet {
             let key="recentUrl";
@@ -134,7 +128,6 @@ class SettingManager: ObservableObject {
         publishMode = defaults.bool(forKey: "publishMode")
         languageId = defaults.integer(forKey: "languageId")
         midiInput = defaults.string(forKey: "midiInput" ) ?? ""
-        pdfData = defaults.data(forKey: "pdfData" )
         recentUrl = defaults.string(forKey: "recentUrl" )
         recentUrlData = defaults.data(forKey: "recentUrlData")
         gmSoundfont = defGmSoundfont
